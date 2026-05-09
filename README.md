@@ -2,6 +2,10 @@
 
 A Streamlit dashboard for visualising real-time and forecast air quality across Poland using data from the Copernicus Atmosphere Monitoring Service (CAMS).
 
+## Live Demo
+
+[airqualityapp-69efcubn3tz4ir3udxkgim.streamlit.app](https://airqualityapp-69efcubn3tz4ir3udxkgim.streamlit.app/)
+
 ## Features
 
 - Interactive Folium map with pollutant concentration overlays
@@ -20,4 +24,4 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-> The app fetches CAMS forecast data on first load. A valid  configuration (CDS API credentials) is required for live data.
+> The app fetches CAMS forecast data on first load. A valid `cams_read.py` configuration (CDS API credentials) is required for live data.
